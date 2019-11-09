@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Swadeshi</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/myjs.js' %}" type="text/javascript"></script>
+</head>
+  <body>
+    <!-- here we are going to define navbar -->
+    {% include 'market/navbar.html'%}
+
+    <!-- here include side menus -->
+    {% include 'market/sidebar.html'%}
+    {%block content%}
+
+    {%endblock%}
+<!-- here including website features -->
+{% include 'market/website_features.html'%}
+    <!-- here including footer  -->
+{% include 'market/footer.html'%}
+
+  </body>
+</html>

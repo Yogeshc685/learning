@@ -1,0 +1,15 @@
+superuser=postgres
+password=root
+port =5432
+
+
+//Super user info
+
+password=88#######@#
+username yogesh
+
+django-deepzoom
+
+https://www.youtube.com/playlist?list=PLj-jdGgxSLAkO-5EweQDdkyoF9wpI6vbj
+github
+pass=882####@#y
